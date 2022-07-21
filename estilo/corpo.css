@@ -1,0 +1,40 @@
+/* geral */
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Times New Roman', Times, serif ;
+	letter-spacing: 1.5px;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: #ffe0b4;
+	height: 100%;
+	width: 100%;
+	background: #ffffff;
+	background-image: url(../img/fundo/fundo1500.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw;
+}
+
+::-webkit-scrollbar {
+	width: 9px;
+}
+::-webkit-scrollbar-track {
+	background: #ffffff;
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+	background: #ff6a0078;
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: orange;
+}
+
+.exemplo {
+	height: 80vh;
+	width: 100vw;
+}
