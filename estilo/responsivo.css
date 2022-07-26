@@ -1,0 +1,15 @@
+/*Responsivo médio*/
+@media (max-width: 900px) {
+    .direito, .esquerdo {
+        width: 23rem;
+    }
+    .esquerdo {
+        display: none;
+    }
+    .sessao4 p, .sessao4 a {
+        font-size: 10pt;
+    }
+    footer p {
+       
+    }
+}

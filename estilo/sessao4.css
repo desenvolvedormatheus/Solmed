@@ -1,9 +1,12 @@
-.sessao3 {
+.espaco {
+    height: 30rem;
+    width: 3rem;
+    background: #808080;
+}
+.sessao4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
-    margin-top: 3rem;
     height: auto;
     width: 95vw;
     background: rgb(255, 106, 0, 0.5);
@@ -11,12 +14,15 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-sizing: border-box;
+    margin-top: 3rem;
+    padding: 2rem 0 2rem 0;
 }
-.sessao3 h1, .sessao3 p {
-    text-align: center;
-    font-size: 22pt;
-    margin:1rem;
-}
-.sessao3 h1 {
+.sessao4 h1 {
     font-size: 30pt;
+    text-align: center;
+}
+iframe {
+    margin: 1rem 0 1rem 0;
+    width: 90%;
+    min-width: 20rem;
 }
