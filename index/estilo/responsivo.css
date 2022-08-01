@@ -21,4 +21,28 @@
     .botao {
         font-size: 8pt;
     }
+    .sessao4 h1 {
+        font-size: 20pt;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo{
+        height: 2rem;
+    }
+    header a {
+        font-size: 10pt;
+    }
+    .menu1 {
+        width: 13rem;
+    }
+    .sessao3 h1 {
+        font-size: 20pt;
+    }
+    .sessao3 p {
+        font-size: 13pt;
+    }
+    .sessao4 {
+
+    }
 }
