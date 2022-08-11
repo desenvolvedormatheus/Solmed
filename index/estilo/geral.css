@@ -18,8 +18,7 @@ body {
 	align-items: center;
 	height: 100%;
 	width: 100%;
-	background-image: url(../img/fundo/fundo.jpg);
-	background-size: 100vw;
+	background: #E4BC6B;
 }
 
 ::-webkit-scrollbar {
