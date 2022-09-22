@@ -1,0 +1,65 @@
+/*Grade*/
+.sessao1 {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    height: 30rem;
+    width: 100%;
+    flex-wrap: wrap;
+    background-image: linear-gradient(orange, white);
+}
+/*Quadros*/
+.esquerdo, .direito {
+    background: orange;
+    box-shadow: white 0 0 1.5rem;
+    height: 23rem;
+    width: 23rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*Esquerdo*/
+.esquerdo h1 {
+    font-size: 25px;
+}
+.esquerdo p {
+    color: #ffffff;
+    font-size: 20px;
+}
+/*Direito*/
+.direito {
+    align-items: center;
+}
+.direito h1 {
+    font-size: 25px;
+    color: #ffffff;
+}
+/*Entradas*/
+input, textarea {
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 20rem;
+    max-width: 20rem;
+    min-width: 15rem;
+    max-height: 5rem;
+    min-height: 2rem;
+}
+::placeholder {
+    color: #ffffff9c;
+}
+
+/*Confirmação*/
+.botao {
+    border: 1px solid white;
+    background-color: transparent;
+    color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+.botao:hover {
+    background: white;
+    color: orange;
+}
