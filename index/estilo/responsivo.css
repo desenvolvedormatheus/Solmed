@@ -1,4 +1,4 @@
-/*Responsivo médio*/
+/*Responsivo mï¿½dio*/
 @media (max-width: 900px) {
     .direito, .esquerdo {
         width: 23rem;
@@ -41,8 +41,5 @@
     }
     .sessao3 p {
         font-size: 13pt;
-    }
-    .sessao4 {
-
     }
 }
