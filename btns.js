@@ -6,7 +6,7 @@ function abrir_menubar(){
 
     let aux = window.getComputedStyle(menu).right
 
-    if(aux == '-180px'){
+    if(aux == '-132px'){
         btn0.style.position = 'absolute'
         btn0.style.transform = 'rotate(45deg)'
         
@@ -15,7 +15,7 @@ function abrir_menubar(){
         btn2.style.position = 'absolute'
         btn2.style.transform = 'rotate(-45deg)'
     
-        menu.style.right = '1.7rem'
+        menu.style.right = '4rem'
     } else{
         btn0.style.position = 'initial'
         btn0.style.transform = 'rotate(0deg)'
@@ -25,6 +25,6 @@ function abrir_menubar(){
         btn2.style.position = 'initial'
         btn2.style.transform = 'rotate(0deg)'
     
-        menu.style.right = '-9rem'
+        menu.style.right = '-11rem'
     }
 }

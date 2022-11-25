@@ -1,0 +1,30 @@
+/*Responsivo 1*/
+@media (max-width: 870px) {
+        /*Header*/
+    main{
+        padding: 0;
+    }
+        /*Sessao1*/
+    .card1-sessao1 h2{
+        font-size: 2rem;
+    }
+}
+
+/*Responsivo 2*/
+@media (max-width: 590px) {
+    /*Header*/
+    .menu-header{
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        top: 1.3rem;
+        right: -11rem;
+
+    }
+    .btn-menu-header{
+        display: flex;
+        z-index: 1;
+    }
+    /*Sessao1*/
+}
