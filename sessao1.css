@@ -1,5 +1,5 @@
 /*geral*/
-.sessao1{
+.sessao1, .sessao2{
     background:#f1f0f0;
     padding: 1rem;
     display: flex;
@@ -12,7 +12,6 @@
     text-align: center;
     gap: 1rem;
     width: 50%;
-    padding-right: 0.5rem;
 }
 .card1-sessao1 h2{
     font-size: 2.5rem;
@@ -25,12 +24,15 @@ a{
 }
 /*Direito*/
 .card2-sessao1{
+    display: flex;
+    justify-content: center;
     width: 50%;
     padding: 0.5rem;
     background: #f1f0f0;
-    box-shadow: 0 0 0.3rem #c4c4c4;
 }
 .card2-sessao1 form{
+    padding: 1rem;
+    box-shadow: 0 0 0.3rem #c4c4c4;
     display: flex;
     justify-content: center;
     flex-direction: column;

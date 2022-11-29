@@ -9,8 +9,17 @@
         font-size: 2rem;
     }
 }
-
 /*Responsivo 2*/
+@media (max-width: 675px){
+    /*sessao2*/
+    iframe{
+        width: 25rem;
+        height: 14.2rem;
+    }
+}
+
+
+/*Responsivo 3*/
 @media (max-width: 590px) {
     /*Header*/
     .menu-header{
@@ -26,5 +35,14 @@
         display: flex;
         z-index: 1;
     }
-    /*Sessao1*/
+    /*Sessao2*/
+    .sessao2{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .card1-sessao2, .card2-sessao2{
+        width: auto;
+        height: auto;
+    }
 }
