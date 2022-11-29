@@ -1,6 +1,8 @@
-/*Geral da sessões são identicas a primeira estão juntas no arquivo sessão1.css*/
-
-
+.sessao2{
+    background:#f1f0f0;
+    padding: 1rem;
+    display: flex;
+}
 .card1-sessao2{
     display: flex;
     justify-content: center;
