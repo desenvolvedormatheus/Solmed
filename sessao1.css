@@ -1,8 +1,9 @@
 /*geral*/
 .sessao1{
-    background:#f1f0f0;
-    padding: 1rem;
     display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    background:#f1f0f0;
 }
 /*Esquerdo*/
 .card1-sessao1{
@@ -10,8 +11,6 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    gap: 1rem;
-    width: 50%;
 }
 .card1-sessao1 h2{
     font-size: 2.5rem;
@@ -26,7 +25,6 @@ a{
 .card2-sessao1{
     display: flex;
     justify-content: center;
-    width: 50%;
     padding: 0.5rem;
     background: #f1f0f0;
 }

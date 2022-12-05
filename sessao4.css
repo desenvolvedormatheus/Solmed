@@ -1,0 +1,19 @@
+.sessao4{
+    display: flex;
+    align-items: center;
+    background:#f1f0f0;
+    padding: 1rem;
+}
+.card1-sessao4{
+    width: 50%;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.card2-sessao4{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.card2-sessao4 img{
+    border-radius: 50%;
+}
